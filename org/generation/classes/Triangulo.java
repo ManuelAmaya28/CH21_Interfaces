@@ -1,4 +1,8 @@
-public class Triangulo {
+package org.generation.classes;
+
+import org.generation.util.Calculable;
+
+public class Triangulo implements Calculable{
 	private String name;
 	private double base;
 	private double altura;
